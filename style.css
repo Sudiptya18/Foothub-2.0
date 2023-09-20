@@ -1,0 +1,375 @@
+body{
+    width: 960px;
+	margin: 0 auto;
+    background-color: #E9E9E9;
+}
+h4{
+    font-size: larger;
+}
+.navbar{
+    display: flex;
+    background-color: #E9E9E9;
+}
+.hlogo{
+    border-radius: 50%;
+    margin: 10px;
+}
+.logo{
+    width: 55%;
+    float: left;
+}
+.font{
+    margin: -40px;
+    margin-left: 30px;
+    padding: 20px;
+    border-right: 1px solid #4C4177;
+}
+.font i{
+    color: #BFBFBF;
+}
+.font i:hover{
+    color: #224e8d;
+}
+.search{
+    margin: -80px -10px 10px 450px;
+    float: right;
+    width: 45%;
+    
+}
+input{
+    
+    padding: 15px 30px 15px 30px;
+}
+.sbtn{  
+        margin-bottom: 10px;
+        padding: 15px;
+        border-radius: 10%;
+        border: none;
+        background-color:  #1A3151;
+        color: white;
+}
+.navi{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A3151;
+}
+.navi a{
+    text-decoration: none;
+    color: white;
+    margin: 20px 0px 20px 10px;
+    
+}
+.navi a:hover{
+    color: #417bcc;
+    border-bottom: 4px solid #417bcc;
+}
+.logIn{
+    padding: 10px 15px;
+    background-color: #224e8d;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.mid-section{
+    background-color: white;
+    margin-top: 10px;
+    
+    margin: auto;
+}
+.mid-section h1{
+    font-weight: bolder;
+    color: #1A3151;
+    padding: 2px;
+    border-bottom: 2px solid grey;
+}
+.slider{
+    width: 100%;
+
+}
+
+
+
+
+
+
+.news{
+    display: block;
+    padding: 30px;
+}
+
+.col{
+            display: inline-block;
+            width: 30%;
+            height: 300px;
+            border: 1px solid gray;
+            text-align: center;
+            margin-top:20px ;
+            margin-left: 20px;
+            border-radius: 5px;
+         }  
+.card1{     margin: 0;
+            padding: 0;
+            width: 100%;
+         }
+.card1 img{
+            border-radius: 5px;
+            width: 100%;
+         }
+.card1 p{
+                padding: 10px;
+         }
+ .transfer{
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+}
+.transfer-table{
+    display: flex;
+}
+.transfer h4{
+    background-color: #1A3151;
+    color: white;
+}
+.Ltransfer{
+    margin-left: 5px;
+    padding: 5px;
+    background: #F3F3F3;
+    box-shadow: 4px 2px 2px 4px grey;
+    border-radius: 10px;
+    width: 35%;
+}
+.player{
+    padding-right: 20px;
+}
+.club{
+    padding-right: 20px;
+}
+.Ltransfer td{
+    border-bottom: 20px solid white;
+}
+.TFee{
+
+}
+.TImg{
+    height: 50px;
+    width: 50px;
+    display: flex;
+}
+.clubImg{
+    height: 40px;
+    width: 80%;
+}
+td p{
+    margin-top: 8px;
+    margin-bottom: -10px;
+    font-size: small;
+}
+.PlrPos{
+    font-size: 1px;
+}
+.deals{
+    background-color: white;
+    margin-top: 15px;
+    padding: 20px;
+}
+.deal-section{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.dealImg img{
+    margin-top:20px ;
+    width: 100%;
+}
+.date{
+    padding-right: 150px;
+}
+.HTeam{
+    padding-left: 40px;
+    
+    text-align: right;
+    padding-left: 6px;
+}
+.matches{
+    background-color: white;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.inOneRow{
+  display: flex;
+  gap: 60px;
+  margin-left: 20px;
+}
+.match{
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.GTeam{
+    padding-left: 4px;
+}
+.home{
+    text-align: right;
+}
+
+.match td{
+    font-weight: bold;
+    color: #4b78b7;
+}
+.match td{
+    border-bottom: 1px solid gray;
+}
+.score{
+    margin: 0px 1px 0px 2px;
+    background-color: #243650;
+    color: white;
+    padding:0px 7px 0px 7px;    
+}
+.match tr{
+    border-bottom: 1px solid black;
+}
+.match th{
+    color: #1A3151;
+    padding-bottom: 10px;
+    border:2px solid palevioletred ;
+}
+.match2 td{
+    border: 1px solid black;
+}
+.matches h1{
+    margin-left: 10px;
+}
+.rank{
+    padding-right: 10px;
+    background-color: grey;
+}
+
+.TClub{
+        padding-right: 180px;
+        background-color: yellowgreen;
+}
+.Tside{
+    text-align: center;
+}
+.tableInfo{
+    background-color:#224e8d;
+    color: white;
+    padding: 5px;
+}
+.footer{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.common{
+    height: 100%;
+    width: 16.40%;
+    background-color: #1A3151;
+    margin-left: 2px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    color: white;
+}
+
+.footer{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.common{
+    height: 100%;
+    width: 16.40%;
+    margin-left: 2px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    color: white;
+}
+.common a{
+    color: white;
+    text-decoration: none;
+}
+.fb{
+
+    background-color: #4267B2;
+}
+.ig{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+      }
+.twi{
+    background-color: #0EA8E2;
+}
+.yt{
+    background-color: #F2342C;
+}
+.com{
+    background-color: #1D75A3;
+}
+.rss{
+    background-color: #FF6600;
+}
+
+.footer{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 0px;
+    background-color: white;
+}
+.oneRow{
+    display: flex;
+  }
+.common{
+    height: 100%;
+    width: 16.40%;
+    margin-left: 2px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    color: white;
+}
+.common i{
+    padding: 0px 5px 5px 0px;
+}
+.alls{
+    height: 100%;
+    width: 16.40%;
+    margin-left: 2px;
+    background-color: #1A3151;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    color: white;
+}
+
+.nws{
+    margin-top: 10px;
+    text-align: center;
+}
+.nwsimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+.nwstbl{
+     border-collapse: collapse;
+    width: 100%;
+}
+.nwstbl img{
+    border: 1px solid #ddd;
+    border-radius: 4px;  
+    padding: 5px;
+    height: 150px;
+    width: 150px;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2};
+
